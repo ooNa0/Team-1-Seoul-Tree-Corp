@@ -17,7 +17,7 @@ class LoginPage extends StatelessWidget {
           onPressed: () async {
             bool success = await controller.signInWithGoogle();
             if (success) {
-              Get.to(const MainPage(title: "서울나무공사"));
+              Get.to(MainPage());
             }
           },
         ),
