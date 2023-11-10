@@ -12,7 +12,20 @@
           "package_name": "dev.sboh.namu"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "581726238939-ak3m565s81hv4g8546agdrs81bpkdpb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.sboh.namu",
+            "certificate_hash": "7a395b72e3fe4273e020629c085ac6095f88e273"
+          }
+        },
+        {
+          "client_id": "581726238939-nrlam6kiilc0ba3hdtnprnpffpvgbmff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCasuPAR0e3HU3fPLVhguvW3l9VpIW79Kc"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581726238939-nlgb27er94enki23m0tgh1b4qol9rehj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581726238939-4qbu46ohni4o7454qqsqbmced0i7vo5f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.sboh.namu"
+              }
+            }
+          ]
         }
       }
     }

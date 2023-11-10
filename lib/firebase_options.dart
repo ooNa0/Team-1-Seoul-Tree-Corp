@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -49,6 +46,16 @@ class DefaultFirebaseOptions {
     }
   }
 
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyCZa96WG-DKvCRVhtA9HF5xorGH_7csIqc',
+    appId: '1:581726238939:web:a85040bf95796968ff74fe',
+    messagingSenderId: '581726238939',
+    projectId: 'seoul-tree-corp',
+    authDomain: 'seoul-tree-corp.firebaseapp.com',
+    storageBucket: 'seoul-tree-corp.appspot.com',
+    measurementId: 'G-SCQWMT7K4B',
+  );
+
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCasuPAR0e3HU3fPLVhguvW3l9VpIW79Kc',
     appId: '1:581726238939:android:8803108ab912667eff74fe',
@@ -63,6 +70,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '581726238939',
     projectId: 'seoul-tree-corp',
     storageBucket: 'seoul-tree-corp.appspot.com',
+    androidClientId: '581726238939-ak3m565s81hv4g8546agdrs81bpkdpb3.apps.googleusercontent.com',
+    iosClientId: '581726238939-4qbu46ohni4o7454qqsqbmced0i7vo5f.apps.googleusercontent.com',
     iosBundleId: 'dev.sboh.namu',
   );
 }
