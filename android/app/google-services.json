@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "581726238939",
+    "project_id": "seoul-tree-corp",
+    "storage_bucket": "seoul-tree-corp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581726238939:android:8803108ab912667eff74fe",
+        "android_client_info": {
+          "package_name": "dev.sboh.namu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCasuPAR0e3HU3fPLVhguvW3l9VpIW79Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
